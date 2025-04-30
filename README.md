@@ -30,3 +30,39 @@ attendance_project/ │
 ├── dataset/ # Collected face data 
 ├── trained_model/ # Face encodings └── utils/ 
 ├── face_recognition.py # Face processing logic └── scheduler.py # Scheduling checkpoints
+
+
+## ✅ To-Do
+- [ ] Build face registration UI
+- [ ] Implement real-time recognition
+- [ ] Add scheduler for checkpoint-based attendance
+- [ ] Integrate DB storage
+- [ ] Improve UI with Flask templates
+
+---
+
+### 🙋‍♀️ Contributing
+To contribute, fork the repo and make a pull request. All help is welcome!
+
+---
+
+### 📄 `.gitignore`
+```gitignore
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset and output folders
+dataset/
+trained_model/
+static/captured_faces/
+attendance.csv
