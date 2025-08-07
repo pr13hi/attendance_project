@@ -1,68 +1,73 @@
-# Attendance Management System using Face Recognition
+# Welcome to your Lovable project
 
-This project is a facial recognition-based attendance management system built using Python, Flask, and OpenCV. It allows users to register faces, recognize attendees in real-time, and log attendance into a CSV or database.
+## Project info
 
-## 🛠 Features
-- Face registration & dataset creation
-- Real-time face recognition using webcam
-- Attendance logging with timestamps
-- Multiple checkpoints: start, random, and end
-- CSV/Database storage (future enhancement)
-- Flask web interface (for future UI integration)
+**URL**: https://lovable.dev/projects/d6eebb13-949a-410a-b899-0be102127d10
 
-## 🧰 Tech Stack
-- Python
-- OpenCV
-- face_recognition library
-- Flask
-- SQLite/MySQL (planned)
+## How can I edit this code?
 
-## 📁 Folder Structure
-attendance_project/ │ 
-├── app.py # Main Flask app 
-├── attendance.csv # Logs attendance 
-├── README.md # Project info 
-├── .gitignore # Git ignored files │ 
-├── static/ │ 
-├── css/ │ 
-├── js/ │ └── captured_faces/ # Stored face captures │ 
-├── templates/ # HTML templates 
-├── dataset/ # Collected face data 
-├── trained_model/ # Face encodings └── utils/ 
-├── face_recognition.py # Face processing logic └── scheduler.py # Scheduling checkpoints
+There are several ways of editing your application.
 
+**Use Lovable**
 
-## ✅ To-Do
-- [ ] Build face registration UI
-- [ ] Implement real-time recognition
-- [ ] Add scheduler for checkpoint-based attendance
-- [ ] Integrate DB storage
-- [ ] Improve UI with Flask templates
+Simply visit the [Lovable Project](https://lovable.dev/projects/d6eebb13-949a-410a-b899-0be102127d10) and start prompting.
 
----
+Changes made via Lovable will be committed automatically to this repo.
 
-### 🙋‍♀️ Contributing
-To contribute, fork the repo and make a pull request. All help is welcome!
+**Use your preferred IDE**
 
----
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### 📄 `.gitignore`
-```gitignore
-# Byte-compiled / cache files
-__pycache__/
-*.py[cod]
-*$py.class
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-# Virtual environment
-venv/
-env/
+Follow these steps:
 
-# OS files
-.DS_Store
-Thumbs.db
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-# Dataset and output folders
-dataset/
-trained_model/
-static/captured_faces/
-attendance.csv
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/d6eebb13-949a-410a-b899-0be102127d10) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)

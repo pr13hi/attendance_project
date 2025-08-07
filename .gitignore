@@ -1,18 +1,24 @@
-# Byte-compiled / cache files
-__pycache__/
-*.py[cod]
-*$py.class
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Virtual environment
-venv/
-env/
+node_modules
+dist
+dist-ssr
+*.local
 
-# OS files
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-
-# Dataset and output folders
-dataset/
-trained_model/
-static/captured_faces/
-attendance.csv
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
